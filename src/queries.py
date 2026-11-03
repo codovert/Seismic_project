@@ -66,6 +66,7 @@ SELECT `year`, SUM(tsunami) AS tsunami_events FROM earthquakes GROUP BY `year` O
 "Seismic Patterns & Trends": {
 "21. Top 5 countries by average magnitude (min 30 events)": """
 SELECT country, ROUND(AVG(mag),2) AS avg_mag, COUNT(*) AS events FROM earthquakes
+WHERE continent <> 'Ocean/Other'
 GROUP BY country HAVING COUNT(*) >= 30 ORDER BY avg_mag DESC LIMIT 5""",
 
 "22. Countries with both shallow and deep earthquakes in the same month": """
@@ -89,12 +90,14 @@ FROM earthquakes GROUP BY country ORDER BY activity_score DESC LIMIT 3""",
 "Depth, Location & Reliability": {
 "25. Average depth per country within ±5° of the equator": """
 SELECT country, ROUND(AVG(depth_km),2) AS avg_depth_km, COUNT(*) AS events FROM earthquakes
-WHERE latitude BETWEEN -5 AND 5 GROUP BY country ORDER BY avg_depth_km DESC""",
-
+WHERE latitude BETWEEN -5 AND 5 AND continent <> 'Ocean/Other'
+GROUP BY country ORDER BY avg_depth_km DESC""",
+python
 "26. Countries with the highest shallow-to-deep ratio (min 30 events)": """
 SELECT country, SUM(depth_category='Shallow') AS shallow, SUM(depth_category='Deep') AS deep,
        ROUND(SUM(depth_category='Shallow') / NULLIF(SUM(depth_category='Deep'),0), 2) AS ratio
-FROM earthquakes GROUP BY country HAVING COUNT(*) >= 30 AND deep > 0
+FROM earthquakes WHERE continent <> 'Ocean/Other'
+GROUP BY country HAVING COUNT(*) >= 30 AND deep > 0
 ORDER BY ratio DESC LIMIT 15""",
 
 "27. Average magnitude difference: tsunami vs no tsunami": """

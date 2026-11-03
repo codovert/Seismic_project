@@ -1,0 +1,199 @@
+=== 1_top_10_strongest_earthquakes.csv (10 rows) ===
+          id                                         place                                country  mag                time
+  us6000qw60   2025 Kamchatka Peninsula, Russia Earthquake                      Russia Earthquake  8.8 2025-07-29 23:24:52
+ak0219neiszm               2021 Chignik, Alaska Earthquake                      Alaska Earthquake  8.2 2021-07-29 06:15:49
+  us6000f53e        2021 South Sandwich Islands Earthquake 2021 South Sandwich Islands Earthquake  8.1 2021-08-12 18:35:17
+  us7000dflf 2021 Kermadec Islands, New Zealand Earthquake                 New Zealand Earthquake  8.1 2021-03-04 19:28:33
+  us6000tkt2                  66 km NNW of Ende, Indonesia                              Indonesia  7.8 2026-08-14 21:58:22
+
+=== 2_top_10_deepest_earthquakes.csv (10 rows) ===
+        id                       place country  depth_km  mag
+us6000sp3p 206 km ENE of Sola, Vanuatu Vanuatu   683.578  4.0
+us6000k2db 208 km ENE of Sola, Vanuatu Vanuatu   681.238  4.0
+us7000kxdn              Vanuatu region Vanuatu   675.265  4.2
+us6000mivr                 Fiji region    Fiji   671.043  4.2
+us6000rk66  205 km ESE of Levuka, Fiji    Fiji   669.556  4.8
+
+=== 3_shallow_earthquakes_50_km_with_magnitude_7_5.csv (16 rows) ===
+          id                                                  place                                country  depth_km  mag                time
+  us6000qw60            2025 Kamchatka Peninsula, Russia Earthquake                      Russia Earthquake     35.00  8.8 2025-07-29 23:24:52
+ak0219neiszm                        2021 Chignik, Alaska Earthquake                      Alaska Earthquake     35.00  8.2 2021-07-29 06:15:49
+  us6000f53e                 2021 South Sandwich Islands Earthquake 2021 South Sandwich Islands Earthquake     22.79  8.1 2021-08-12 18:35:17
+  us7000dflf          2021 Kermadec Islands, New Zealand Earthquake                 New Zealand Earthquake     28.93  8.1 2021-03-04 19:28:33
+  us6000jllz Pazarcik earthquake, Kahramanmaras earthquake sequence      Kahramanmaras earthquake sequence     10.00  7.8 2023-02-06 01:17:34
+
+=== 5_average_magnitude_per_magnitude_type.csv (18 rows) ===
+magType  avg_mag  events
+     Mi     6.60       1
+    mwc     6.15       2
+  ms_20     5.80       1
+    mwb     5.78      32
+    mww     5.36    7536
+
+=== 6_year_with_the_most_earthquakes.csv (6 rows) ===
+ year  total
+ 2025  22833
+ 2021  21926
+ 2023  20830
+ 2022  20208
+ 2024  18659
+
+=== 7_month_with_the_highest_number_of_earthquakes.csv (12 rows) ===
+ month  total
+     8  11867
+     7  11863
+     3  10928
+     1  10578
+     4  10345
+
+=== 8_day_of_week_with_the_most_earthquakes.csv (7 rows) ===
+day_of_week  total
+     Friday  17658
+    Tuesday  17554
+     Sunday  17414
+  Wednesday  17408
+     Monday  17345
+
+=== 9_earthquakes_per_hour_of_day.csv (24 rows) ===
+ hour  total
+    0   5026
+    1   5330
+    2   5167
+    3   5359
+    4   5323
+
+=== 10_most_active_reporting_network.csv (18 rows) ===
+net  total
+ us 106555
+ pr   6580
+ ak   3905
+ tx   1049
+ nc   1011
+
+=== 11_top_5_countries_by_total_significance_casualty_proxy.csv (5 rows) ===
+      country  total_significance  events
+United States           4286087.0   21909
+    Indonesia           3054273.0    9723
+        Japan           2317036.0    7364
+       Russia           2218324.0    7124
+  Philippines           1757574.0    5440
+
+=== 13_average_significance_by_magnitude_category_alert_level_pr.csv (6 rows) ===
+mag_category  avg_significance  events
+       Great            1411.0       4
+       Major            1211.0      84
+      Strong             667.7     704
+    Moderate             430.8   10225
+       Light             301.4   83829
+
+=== 14_reviewed_vs_automatic_earthquakes.csv (2 rows) ===
+   status  total
+ reviewed 121589
+automatic    182
+
+=== 15_count_by_earthquake_type.csv (10 rows) ===
+             type  total
+       earthquake 120858
+ mining explosion    865
+        ice quake     13
+volcanic eruption     12
+        Landslide      7
+
+=== 16_number_of_earthquakes_by_data_type.csv (20 rows) ===
+                              types  total
+                ,origin,phase-data,  92647
+           ,dyfi,origin,phase-data,   9201
+       ,origin,phase-data,shakemap,   2694
+,earthquake-name,origin,phase-data,   2172
+  ,moment-tensor,origin,phase-data,   1469
+
+=== 18_events_with_high_station_coverage_nst_100.csv (100 rows) ===
+        id                                             place       country  nst  mag
+us6000m12f                         11 km W of Anamizu, Japan         Japan  619  5.4
+us6000qzfl                 120 km ENE of Ozernovskiy, Russia        Russia  566  5.0
+us7000rluk                       111 km N of Yakutat, Alaska United States  516  5.7
+us7000pvtr                           Macquarie Island region     Australia  475  6.8
+usd001097k 49 km WNW of San Antonio de los Cobres, Argentina     Argentina  466  5.5
+
+=== 19_tsunamis_triggered_per_year.csv (6 rows) ===
+ year  tsunami_events
+ 2021           114.0
+ 2022           136.0
+ 2023           119.0
+ 2024           114.0
+ 2025           142.0
+
+=== 20_count_of_earthquakes_by_magnitude_category_alert_level_pr.csv (6 rows) ===
+mag_category  total
+       Light  83829
+       Minor  26925
+    Moderate  10225
+      Strong    704
+       Major     84
+
+=== 21_top_5_countries_by_average_magnitude_min_30_events.csv (5 rows) ===
+                   country  avg_mag  events
+   Pacific-Antarctic Ridge     4.89     276
+southern East Pacific Rise     4.88     232
+           Balleny Islands     4.84     144
+             Drake Passage     4.82      76
+     Prince Edward Islands     4.80      62
+
+=== 22_countries_with_both_shallow_and_deep_earthquakes_in_the_s.csv (766 rows) ===
+                 country  year  month
+                    Fiji  2021      1
+               Indonesia  2021      1
+                   Japan  2021      1
+        Kermadec Islands  2021      1
+Northern Mariana Islands  2021      1
+
+=== 23_year_over_year_growth_in_earthquakes.csv (6 rows) ===
+  yr   cnt  prev_year  growth_pct
+2021 21926        NaN         NaN
+2022 20208    21926.0       -7.84
+2023 20830    20208.0        3.08
+2024 18659    20830.0      -10.42
+2025 22833    18659.0       22.37
+
+=== 24_top_3_most_active_regions_frequency_x_average_magnitude.csv (3 rows) ===
+      country  events  avg_mag  activity_score
+United States   21909     3.45         75636.8
+    Indonesia    9723     4.50         43759.6
+        Japan    7364     4.50         33125.7
+
+=== 25_average_depth_per_country_within_5_of_the_equator.csv (43 rows) ===
+         country  avg_depth_km  events
+     Celebes Sea        452.79      11
+       Banda Sea        339.38      11
+     Philippines        110.36     626
+    Bismarck Sea        106.02       6
+Papua New Guinea         71.84    1233
+
+=== 26_countries_with_the_highest_shallow_to_deep_ratio_min_30_e.csv (15 rows) ===
+    country  shallow  deep  ratio
+      China   1726.0   1.0 1726.0
+       Peru    746.0   1.0  746.0
+Afghanistan    267.0   1.0  267.0
+       Guam    508.0   2.0  254.0
+New Zealand   1554.0  12.0  129.5
+
+=== 27_average_magnitude_difference_tsunami_vs_no_tsunami.csv (1 rows) ===
+ avg_mag_tsunami  avg_mag_no_tsunami  difference
+           5.421                4.25       1.171
+
+=== 28_events_with_the_lowest_data_reliability_gap_rms.csv (20 rows) ===
+           id                                 place        gap      rms  unreliability_score
+aka2026piyzhh           45 km E of Savoonga, Alaska 252.000000 3.400000                1.574
+ ak2025xgbuwx Rat Islands, Aleutian Islands, Alaska 333.434784 1.830562                1.398
+   us7000tbwb           55 km NW of Kodāri̇̄, Nepal 122.864157 3.900000                1.342
+aka2026rdaolu       125 km SE of Perryville, Alaska 204.000000 2.800000                1.286
+   us6000r05v    286 km SSE of Attu Station, Alaska 341.000000 1.060000                1.222
+
+=== 30_regions_with_the_most_deep_focus_earthquakes_300_km.csv (15 rows) ===
+    country  deep_events  avg_depth
+       Fiji         4338      545.9
+      Tonga          638      471.4
+      Japan          392      418.3
+  Indonesia          299      456.7
+Timor-Leste          226      445.5
+
