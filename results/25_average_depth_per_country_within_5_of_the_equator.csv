@@ -1,19 +1,10 @@
 country,avg_depth_km,events
-Celebes Sea,452.79,11
-Banda Sea,339.38,11
 Philippines,110.36,626
-Bismarck Sea,106.02,6
 Papua New Guinea,71.84,1233
 Peru,64.07,101
 Indonesia,62.24,6126
-Peru-Ecuador border,59.68,5
-northern Peru,55.07,2
 Ecuador,52.57,404
-Molucca Sea,51.64,72
 Colombia,45.42,190
-near the coast of Ecuador,30.97,3
-Congo-Uganda,14.78,1
-South Indian Ocean,11.33,15
 Venezuela,11.13,1
 Palau,10.73,7
 Malaysia,10.61,5
@@ -23,19 +14,10 @@ Guyana,10.35,7
 off the coast of Central America,10.25,71
 Panama,10.17,45
 Uganda,10.08,25
-Carlsberg Ridge,10.04,158
-central Mid-Atlantic Ridge,10.01,247
-Galapagos Triple Junction,10.0,38
-North Indian Ocean,10.0,6
-Chagos Archipelago,10.0,40
-east central Pacific Ocean,10.0,6
-Tanzania,10.0,41
-Colombia-Ecuador border,10.0,1
-central East Pacific Rise,10.0,75
-South Atlantic Ocean,10.0,2
-Burundi,10.0,6
-Federated States of Micronesia,10.0,4
 Ascension Island,10.0,122
+Tanzania,10.0,41
+Federated States of Micronesia,10.0,4
+Burundi,10.0,6
 Kiribati,10.0,4
 South Sudan,10.0,2
 Ethiopia,10.0,1

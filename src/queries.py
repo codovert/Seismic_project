@@ -92,7 +92,7 @@ FROM earthquakes GROUP BY country ORDER BY activity_score DESC LIMIT 3""",
 SELECT country, ROUND(AVG(depth_km),2) AS avg_depth_km, COUNT(*) AS events FROM earthquakes
 WHERE latitude BETWEEN -5 AND 5 AND continent <> 'Ocean/Other'
 GROUP BY country ORDER BY avg_depth_km DESC""",
-python
+
 "26. Countries with the highest shallow-to-deep ratio (min 30 events)": """
 SELECT country, SUM(depth_category='Shallow') AS shallow, SUM(depth_category='Deep') AS deep,
        ROUND(SUM(depth_category='Shallow') / NULLIF(SUM(depth_category='Deep'),0), 2) AS ratio

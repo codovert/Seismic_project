@@ -1,10 +1,10 @@
 === 1_top_10_strongest_earthquakes.csv (10 rows) ===
-          id                                         place                                country  mag                time
-  us6000qw60   2025 Kamchatka Peninsula, Russia Earthquake                      Russia Earthquake  8.8 2025-07-29 23:24:52
-ak0219neiszm               2021 Chignik, Alaska Earthquake                      Alaska Earthquake  8.2 2021-07-29 06:15:49
-  us6000f53e        2021 South Sandwich Islands Earthquake 2021 South Sandwich Islands Earthquake  8.1 2021-08-12 18:35:17
-  us7000dflf 2021 Kermadec Islands, New Zealand Earthquake                 New Zealand Earthquake  8.1 2021-03-04 19:28:33
-  us6000tkt2                  66 km NNW of Ende, Indonesia                              Indonesia  7.8 2026-08-14 21:58:22
+          id                                         place                country  mag                time
+  us6000qw60   2025 Kamchatka Peninsula, Russia Earthquake                 Russia  8.8 2025-07-29 23:24:52
+ak0219neiszm               2021 Chignik, Alaska Earthquake          United States  8.2 2021-07-29 06:15:49
+  us6000f53e        2021 South Sandwich Islands Earthquake South Sandwich Islands  8.1 2021-08-12 18:35:17
+  us7000dflf 2021 Kermadec Islands, New Zealand Earthquake            New Zealand  8.1 2021-03-04 19:28:33
+  us6000tkt2                  66 km NNW of Ende, Indonesia              Indonesia  7.8 2026-08-14 21:58:22
 
 === 2_top_10_deepest_earthquakes.csv (10 rows) ===
         id                       place country  depth_km  mag
@@ -15,12 +15,12 @@ us6000mivr                 Fiji region    Fiji   671.043  4.2
 us6000rk66  205 km ESE of Levuka, Fiji    Fiji   669.556  4.8
 
 === 3_shallow_earthquakes_50_km_with_magnitude_7_5.csv (16 rows) ===
-          id                                                  place                                country  depth_km  mag                time
-  us6000qw60            2025 Kamchatka Peninsula, Russia Earthquake                      Russia Earthquake     35.00  8.8 2025-07-29 23:24:52
-ak0219neiszm                        2021 Chignik, Alaska Earthquake                      Alaska Earthquake     35.00  8.2 2021-07-29 06:15:49
-  us6000f53e                 2021 South Sandwich Islands Earthquake 2021 South Sandwich Islands Earthquake     22.79  8.1 2021-08-12 18:35:17
-  us7000dflf          2021 Kermadec Islands, New Zealand Earthquake                 New Zealand Earthquake     28.93  8.1 2021-03-04 19:28:33
-  us6000jllz Pazarcik earthquake, Kahramanmaras earthquake sequence      Kahramanmaras earthquake sequence     10.00  7.8 2023-02-06 01:17:34
+          id                                                  place                country  depth_km  mag                time
+  us6000qw60            2025 Kamchatka Peninsula, Russia Earthquake                 Russia     35.00  8.8 2025-07-29 23:24:52
+ak0219neiszm                        2021 Chignik, Alaska Earthquake          United States     35.00  8.2 2021-07-29 06:15:49
+  us6000f53e                 2021 South Sandwich Islands Earthquake South Sandwich Islands     22.79  8.1 2021-08-12 18:35:17
+  us7000dflf          2021 Kermadec Islands, New Zealand Earthquake            New Zealand     28.93  8.1 2021-03-04 19:28:33
+  us6000jllz Pazarcik earthquake, Kahramanmaras earthquake sequence                 Turkey     10.00  7.8 2023-02-06 01:17:34
 
 === 5_average_magnitude_per_magnitude_type.csv (18 rows) ===
 magType  avg_mag  events
@@ -72,10 +72,10 @@ net  total
 
 === 11_top_5_countries_by_total_significance_casualty_proxy.csv (5 rows) ===
       country  total_significance  events
-United States           4286087.0   21909
+United States           4294193.0   21916
     Indonesia           3054273.0    9723
-        Japan           2317036.0    7364
-       Russia           2218324.0    7124
+        Japan           2322068.0    7368
+       Russia           2222456.0    7126
   Philippines           1757574.0    5440
 
 === 13_average_significance_by_magnitude_category_alert_level_pr.csv (6 rows) ===
@@ -132,12 +132,12 @@ mag_category  total
        Major     84
 
 === 21_top_5_countries_by_average_magnitude_min_30_events.csv (5 rows) ===
-                   country  avg_mag  events
-   Pacific-Antarctic Ridge     4.89     276
-southern East Pacific Rise     4.88     232
-           Balleny Islands     4.84     144
-             Drake Passage     4.82      76
-     Prince Edward Islands     4.80      62
+               country  avg_mag  events
+ Prince Edward Islands     4.80      62
+          Saint Helena     4.77      81
+      Ascension Island     4.75     170
+South Shetland Islands     4.73     105
+       Loyalty Islands     4.70    1106
 
 === 22_countries_with_both_shallow_and_deep_earthquakes_in_the_s.csv (766 rows) ===
                  country  year  month
@@ -157,25 +157,25 @@ Northern Mariana Islands  2021      1
 
 === 24_top_3_most_active_regions_frequency_x_average_magnitude.csv (3 rows) ===
       country  events  avg_mag  activity_score
-United States   21909     3.45         75636.8
+United States   21916     3.45         75682.8
     Indonesia    9723     4.50         43759.6
-        Japan    7364     4.50         33125.7
+        Japan    7368     4.50         33154.7
 
-=== 25_average_depth_per_country_within_5_of_the_equator.csv (43 rows) ===
+=== 25_average_depth_per_country_within_5_of_the_equator.csv (25 rows) ===
          country  avg_depth_km  events
-     Celebes Sea        452.79      11
-       Banda Sea        339.38      11
      Philippines        110.36     626
-    Bismarck Sea        106.02       6
 Papua New Guinea         71.84    1233
+            Peru         64.07     101
+       Indonesia         62.24    6126
+         Ecuador         52.57     404
 
 === 26_countries_with_the_highest_shallow_to_deep_ratio_min_30_e.csv (15 rows) ===
-    country  shallow  deep  ratio
-      China   1726.0   1.0 1726.0
-       Peru    746.0   1.0  746.0
-Afghanistan    267.0   1.0  267.0
-       Guam    508.0   2.0  254.0
-New Zealand   1554.0  12.0  129.5
+    country  shallow  deep   ratio
+      China   1726.0   1.0 1726.00
+       Peru    746.0   1.0  746.00
+Afghanistan    267.0   1.0  267.00
+       Guam    508.0   2.0  254.00
+New Zealand   1555.0  12.0  129.58
 
 === 27_average_magnitude_difference_tsunami_vs_no_tsunami.csv (1 rows) ===
  avg_mag_tsunami  avg_mag_no_tsunami  difference

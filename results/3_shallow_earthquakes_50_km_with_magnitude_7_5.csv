@@ -1,17 +1,17 @@
 id,place,country,depth_km,mag,time
-us6000qw60,"2025 Kamchatka Peninsula, Russia Earthquake",Russia Earthquake,35.0,8.8,2025-07-29 23:24:52
-ak0219neiszm,"2021 Chignik, Alaska Earthquake",Alaska Earthquake,35.0,8.2,2021-07-29 06:15:49
-us6000f53e,2021 South Sandwich Islands Earthquake,2021 South Sandwich Islands Earthquake,22.79,8.1,2021-08-12 18:35:17
-us7000dflf,"2021 Kermadec Islands, New Zealand Earthquake",New Zealand Earthquake,28.93,8.1,2021-03-04 19:28:33
-us6000jllz,"Pazarcik earthquake, Kahramanmaras earthquake sequence",Kahramanmaras earthquake sequence,10.0,7.8,2023-02-06 01:17:34
+us6000qw60,"2025 Kamchatka Peninsula, Russia Earthquake",Russia,35.0,8.8,2025-07-29 23:24:52
+ak0219neiszm,"2021 Chignik, Alaska Earthquake",United States,35.0,8.2,2021-07-29 06:15:49
+us6000f53e,2021 South Sandwich Islands Earthquake,South Sandwich Islands,22.79,8.1,2021-08-12 18:35:17
+us7000dflf,"2021 Kermadec Islands, New Zealand Earthquake",New Zealand,28.93,8.1,2021-03-04 19:28:33
+us6000jllz,"Pazarcik earthquake, Kahramanmaras earthquake sequence",Turkey,10.0,7.8,2023-02-06 01:17:34
 us6000tkt2,"66 km NNW of Ende, Indonesia",Indonesia,10.0,7.8,2026-08-14 21:58:22
 us7000qx2g,"140 km E of Petropavlovsk-Kamchatsky, Russia",Russia,27.0,7.8,2025-09-18 18:58:15
 us6000dg77,southeast of the Loyalty Islands,Loyalty Islands,10.0,7.7,2021-02-10 13:19:56
 us6000kd0n,southeast of the Loyalty Islands,Loyalty Islands,18.053,7.7,2023-05-19 02:57:03
 us6000u18k,"12 km WSW of Pitaloza Arriba, Panama",Panama,12.647,7.7,2026-10-09 17:56:06
-us7000pn9s,"2025 Mandalay, Burma (Myanmar) Earthquake",Burma (Myanmar) Earthquake,10.0,7.7,2025-03-28 06:20:53
+us7000pn9s,"2025 Mandalay, Burma (Myanmar) Earthquake",Burma (Myanmar),10.0,7.7,2025-03-28 06:20:53
 us6000rgf4,Drake Passage,Drake Passage,5.639,7.6,2025-10-10 20:29:20
-us6000rtdt,"2025 Aomori Prefecture, Japan Earthquake",Japan Earthquake,40.72,7.6,2025-12-08 14:15:10
+us6000rtdt,"2025 Aomori Prefecture, Japan Earthquake",Japan,40.72,7.6,2025-12-08 14:15:10
 us7000i9bw,"35 km SSW of Aguililla, Mexico",Mexico,26.943,7.6,2022-09-19 18:05:08
 us7000lff4,"19 km E of Gamut, Philippines",Philippines,40.0,7.6,2023-12-02 14:37:04
 us7000pcdl,"210 km SSW of George Town, Cayman Islands",Cayman Islands,14.326,7.6,2025-02-08 23:23:15
